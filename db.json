@@ -825,6 +825,38 @@
       ],
       "total": 4298,
       "date": "1/16/2026, 1:59:33 PM"
+    },
+    {
+      "id": "order_1769078757533",
+      "userEmail": "user@gmail.com",
+      "items": [
+        {
+          "id": "7243",
+          "name": "casual class",
+          "price": 850,
+          "style": "Casual",
+          "image": "https://cdn.shopify.com/s/files/1/0625/4873/8266/files/Screenshot_2023-02-09_at_19.31.15_600x600.png?v=1675951326",
+          "qty": 1
+        },
+        {
+          "id": "7",
+          "name": "Casual Denim Shirt",
+          "style": "Casual",
+          "price": 2199,
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQQM_xsetVPAZZxQQSYG3C6NdJbonWIqW11A&s",
+          "qty": 1
+        },
+        {
+          "id": "20",
+          "name": "Black Denim Jeans",
+          "style": "Jeans",
+          "price": 2199,
+          "image": "https://5.imimg.com/data5/TW/SN/FQ/SELLER-78804906/black-skinny-jeans-500x500.jpg",
+          "qty": 1
+        }
+      ],
+      "total": 5248,
+      "date": "1/22/2026, 4:15:57 PM"
     }
   ]
 }

@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
   loadOrders();
 });
 
-const API_URL = "http://localhost:3000/orders";
+const API_URL = "https://zen-fashion-hnjy.onrender.com/orders";
 
 function loadOrders() {
   fetch(API_URL)

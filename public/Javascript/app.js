@@ -1,4 +1,4 @@
-const API = "http://localhost:3000";
+const API = "https://zen-fashion-hnjy.onrender.com";
 let allProducts = [];
 
 
@@ -51,7 +51,7 @@ function savePreferences() {
 
 /* ================= LOAD PRODUCTS ================= */
 function loadProducts() {
-  fetch("http://localhost:3000/products")
+  fetch("https://zen-fashion-hnjy.onrender.com/products")
     .then(res => res.json())
     .then(data => {
       const filtered = filterProducts(data);
@@ -257,7 +257,7 @@ function placeOrder() {
     date: new Date().toLocaleString()
   };
 
-  fetch("http://localhost:3000/orders", {
+  fetch("https://zen-fashion-hnjy.onrender.com/orders", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify(order)
