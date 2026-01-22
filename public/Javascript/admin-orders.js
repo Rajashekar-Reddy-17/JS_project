@@ -3,7 +3,8 @@ const role = localStorage.getItem("role");
 
 if (role !== "admin") {
   alert("Access Denied! Admin only.");
-  window.location.href = "login.html";
+  window.location.href = "auth.html";
+
 }
 
 // ✅ Run only AFTER page loads

@@ -51,7 +51,7 @@ function savePreferences() {
 
 /* ================= LOAD PRODUCTS ================= */
 function loadProducts() {
-  fetch("https://zen-fashion-hnjy.onrender.com/products")
+  fetch(`${API}/products`)
     .then(res => res.json())
     .then(data => {
       const filtered = filterProducts(data);

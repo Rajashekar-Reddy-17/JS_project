@@ -1,9 +1,3 @@
-<script>
-  if (!localStorage.getItem("user")) {
-    location.href = "auth.html";
-  }
-</script>
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -12,7 +6,11 @@
 </head>
 <body>
 
-  
+<script>
+  if (!localStorage.getItem("user")) {
+    location.href = "auth.html";
+  }
+</script>
 
 <header>
   <h2>Zen Fashion</h2>
@@ -24,19 +22,6 @@
   </div>
 </header>
 
-<!-- products section -->
-<div id="products"></div>
-
-<script src="./Javascript/app.js"></script>
-
-
-<!-- TOP BAR -->
-<div class="cart-icon">
-  <a href="cart.html">
-    🛒 <span id="cartCount">0</span>
-  </a>
-</div>
-
 <div class="top-bar">
   <span class="logout-icon" onclick="logout()" title="Logout">
     🔓
@@ -47,11 +32,11 @@
   Recommended Outfits
 </h2>
 
-<!-- ✅ SINGLE PRODUCTS CONTAINER -->
-<div id="products" class="products-grid"></div>
+<!-- ✅ ONLY ONE PRODUCTS CONTAINER -->
+<div id="products"></div>
 
-<!-- ✅ LOAD JS ONCE -->
-<script src="./Javascript/app.js" defer></script>
+<!-- ✅ LOAD JS ONLY ONCE -->
+<script src="./Javascript/app.js"></script>
 
 </body>
 </html>
