@@ -1,0 +1,830 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "grsr@gmail.com",
+      "password": "grsr1234",
+      "role": "admin"
+    },
+    {
+      "id": "7dc3",
+      "email": "user@gmail.com",
+      "password": "123456",
+      "role": "user"
+    },
+    {
+      "id": "6e38",
+      "email": "user2@gmail.com",
+      "password": "123456",
+      "role": "user"
+    },
+    {
+      "id": "a3dd",
+      "email": "likithsai@gmail.com",
+      "password": "123456",
+      "role": "user"
+    },
+    {
+      "id": "d7e4",
+      "email": "likith@gmail.com",
+      "password": "123456",
+      "role": "user"
+    },
+    {
+      "id": "cda8",
+      "email": "user3@gmail.com",
+      "password": "123456",
+      "role": "user"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "Casual Shirt",
+      "style": "Casual",
+      "price": 999,
+      "image": "https://campussutra.com/cdn/shop/files/CSMSSRT8012_1_284604c5-c1d2-48cd-83f1-d154c18d96c0.jpg?v=1736493570"
+    },
+    {
+      "id": "2",
+      "name": "Formal Suit",
+      "style": "Formal",
+      "price": 4999,
+      "image": "https://images.jdmagicbox.com/quickquotes/images_main/men-s-velvet-embroidered-coat-pant-s-xxl-pqdt4j6g.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Blue Jeans",
+      "style": "Jeans",
+      "price": 1999,
+      "image": "https://peplosjeans.in/cdn/shop/products/13B_1.png?v=1709532475&width=1080"
+    },
+    {
+      "id": "4",
+      "name": "Casual Checked Shirt",
+      "style": "Casual",
+      "price": 1199,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBHy7sH-DTABH3w8k46q78QKYKhAilRL6Cnw&s"
+    },
+    {
+      "id": "5",
+      "name": "Casual T-Shirt",
+      "style": "Casual",
+      "price": 1199,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCioTE6vKxpX2v89wA8b_WXIyTRqv6pq0kWQ&s"
+    },
+    {
+      "id": "6",
+      "name": "Casual Hoodie",
+      "style": "Casual",
+      "price": 2099,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2IYQaqf5BmzPiDc5t3f2i3CI-aKilvU2PnQ&s"
+    },
+    {
+      "id": "7",
+      "name": "Casual Denim Shirt",
+      "style": "Casual",
+      "price": 2199,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQQM_xsetVPAZZxQQSYG3C6NdJbonWIqW11A&s"
+    },
+    {
+      "id": "8",
+      "name": "Casual Polo T-Shirt",
+      "style": "Casual",
+      "price": 1299,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSy3tAAJ1iJX2-OUjsShzdU1UAJboVpBGZgfw&s"
+    },
+    {
+      "id": "9",
+      "name": "Casual Printed Shirt",
+      "style": "Casual",
+      "price": 1259,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRf3vBiLZ-IQ1OW7yW_t2eYLem8bz12ByG3xQ&s"
+    },
+    {
+      "id": "10",
+      "name": "Casual Sweatshirt",
+      "style": "Casual",
+      "price": 2199,
+      "image": "https://images.podos.io/osqk308lw5yetyqavbeiapwznywtbmbz5ywndxnfg0qadjkm.jpeg.jpg?w=1080&h=1080&project=rapanui-24&v=2"
+    },
+    {
+      "id": "11",
+      "name": "Formal Shirt",
+      "style": "Formal",
+      "price": 1599,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWmee0q6rkOyH6xCNuUc6qxEVGuD-OQyZnLQ&s"
+    },
+    {
+      "id": "12",
+      "name": "Formal Blazer",
+      "style": "Formal",
+      "price": 2199,
+      "image": "https://assets.myntassets.com/w_360,q_50,,dpr_2,fl_progressive,f_webp/assets/images/12554498/2022/4/28/a3e42528-019c-4bf9-a5bc-30cb76c747211651116245680-MANQ-Men-Blue-Slim-Fit-Solid-Single-Breasted-Formal-Blazer-6-1.jpg"
+    },
+    {
+      "id": "13",
+      "name": "Formal Trousers",
+      "style": "Formal",
+      "price": 1199,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKLdvgC0lqIdMilhUFkHfEPm8ED-iih5KmZg&s"
+    },
+    {
+      "id": "14",
+      "name": "Formal Waistcoat",
+      "style": "Formal",
+      "price": 2099,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4Qrm6f8IbMACkNZuNRommepiC19SEL00SyA&s"
+    },
+    {
+      "id": "15",
+      "name": "Formal Coat Pant",
+      "style": "Formal",
+      "price": 5999,
+      "image": "https://i.pinimg.com/736x/78/64/da/7864dac85f692349fd1f178596241c3f.jpg"
+    },
+    {
+      "id": "16",
+      "name": "Formal White Shirt",
+      "style": "Formal",
+      "price": 1099,
+      "image": "https://myraymond.com/cdn/shop/files/PMSX18661-W1-1.jpg?v=1729163840"
+    },
+    {
+      "id": "17",
+      "name": "Formal Black Blazer",
+      "style": "Formal",
+      "price": 3799,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0a50rwUYQcynj033mHWamMv5EUbpITsWfpQ&s"
+    },
+    {
+      "id": "18",
+      "name": "Slim Fit Jeans",
+      "style": "Jeans",
+      "price": 999,
+      "image": "https://wrogn.com/cdn/shop/files/c50397cd-35ef-4309-ab2b-70882812160f1704784947881-WROGN-Men-Jeans-111704784947496-2.jpg?v=1719842098"
+    },
+    {
+      "id": "19",
+      "name": "Regular Fit Jeans",
+      "style": "Jeans",
+      "price": 1199,
+      "image": "https://tigc.in/cdn/shop/files/compress_0124-367ltdnm-01-blue__1.jpg?v=1720784381&width=360"
+    },
+    {
+      "id": "20",
+      "name": "Black Denim Jeans",
+      "style": "Jeans",
+      "price": 2199,
+      "image": "https://5.imimg.com/data5/TW/SN/FQ/SELLER-78804906/black-skinny-jeans-500x500.jpg"
+    },
+    {
+      "id": "21",
+      "name": "Light Blue Jeans",
+      "style": "Jeans",
+      "price": 1899,
+      "image": "https://rukminim2.flixcart.com/image/480/640/xif0q/jean/2/f/b/28-dpf-mj-baggy047-playfeel-original-imah3scbff6ke4kh.jpeg?q=90"
+    },
+    {
+      "id": "22",
+      "name": "Stretchable Jeans",
+      "style": "Jeans",
+      "price": 2099,
+      "image": "https://pictures.kartmax.in/live/inside/800x800/sites/aPfvUDpPwMn1ZadNKhP7/product-images/8905745824299/660/HLJN003072_1.JPG"
+    },
+    {
+      "id": "23",
+      "name": "Dark Blue Jeans",
+      "style": "Jeans",
+      "price": 2199,
+      "image": "https://rukminim2.flixcart.com/image/480/640/xif0q/jean/p/g/m/30-t-baggy-dark-blue-tidda-original-imah3ztw5ngr78hf.jpeg?q=90"
+    },
+    {
+      "id": "24",
+      "name": "Faded Jeans",
+      "style": "Jeans",
+      "price": 1999,
+      "image": "https://5.imimg.com/data5/JJ/NG/MY-38742579/light-blue-faded-jeans-500x500.jpg"
+    },
+    {
+      "id": "68bc",
+      "name": "casual shirt",
+      "price": 800,
+      "style": "Casual",
+      "image": "data:image/jpeg;base64,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"
+    },
+    {
+      "id": "7243",
+      "name": "casual class",
+      "price": 850,
+      "style": "Casual",
+      "image": "https://cdn.shopify.com/s/files/1/0625/4873/8266/files/Screenshot_2023-02-09_at_19.31.15_600x600.png?v=1675951326"
+    }
+  ],
+  "orders": [
+    {
+      "id": "order_1766876175238",
+      "userEmail": "gangularajashekarreddy@gmail.com",
+      "items": [
+        {
+          "id": "7",
+          "name": "Casual Denim Shirt",
+          "style": "Casual",
+          "price": 2199,
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQQM_xsetVPAZZxQQSYG3C6NdJbonWIqW11A&s",
+          "qty": 2
+        },
+        {
+          "id": "20",
+          "name": "Black Denim Jeans",
+          "style": "Jeans",
+          "price": 2199,
+          "image": "https://5.imimg.com/data5/TW/SN/FQ/SELLER-78804906/black-skinny-jeans-500x500.jpg",
+          "qty": 1
+        },
+        {
+          "id": "23",
+          "name": "Dark Blue Jeans",
+          "style": "Jeans",
+          "price": 2199,
+          "image": "https://rukminim2.flixcart.com/image/480/640/xif0q/jean/p/g/m/30-t-baggy-dark-blue-tidda-original-imah3ztw5ngr78hf.jpeg?q=90",
+          "qty": 1
+        }
+      ],
+      "total": 8796,
+      "date": "12/28/2025, 4:26:15 AM"
+    },
+    {
+      "id": "order_1766876717662",
+      "userEmail": "gangularajashekarreddy@gmail.com",
+      "items": [
+        {
+          "id": "20",
+          "name": "Black Denim Jeans",
+          "style": "Jeans",
+          "price": 2199,
+          "image": "https://5.imimg.com/data5/TW/SN/FQ/SELLER-78804906/black-skinny-jeans-500x500.jpg",
+          "qty": 1
+        }
+      ],
+      "total": 2199,
+      "date": "12/28/2025, 4:35:17 AM"
+    },
+    {
+      "id": "order_1766915566347",
+      "userEmail": "gangularajashekarreddy@gmail.com",
+      "items": [
+        {
+          "id": "1",
+          "name": "Casual Shirt",
+          "style": "Casual",
+          "price": 999,
+          "image": "https://campussutra.com/cdn/shop/files/CSMSSRT8012_1_284604c5-c1d2-48cd-83f1-d154c18d96c0.jpg?v=1736493570",
+          "qty": 2
+        },
+        {
+          "id": "4",
+          "name": "Casual Checked Shirt",
+          "style": "Casual",
+          "price": 1199,
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBHy7sH-DTABH3w8k46q78QKYKhAilRL6Cnw&s",
+          "qty": 1
+        }
+      ],
+      "total": 3197,
+      "date": "12/28/2025, 3:22:46 PM"
+    },
+    {
+      "id": "order_1766917175013",
+      "userEmail": "gangularajashekarreddy@gmail.com",
+      "items": [
+        {
+          "id": "22",
+          "name": "Stretchable Jeans",
+          "style": "Jeans",
+          "price": 2099,
+          "image": "https://pictures.kartmax.in/live/inside/800x800/sites/aPfvUDpPwMn1ZadNKhP7/product-images/8905745824299/660/HLJN003072_1.JPG",
+          "qty": 1
+        },
+        {
+          "id": "23",
+          "name": "Dark Blue Jeans",
+          "style": "Jeans",
+          "price": 2199,
+          "image": "https://rukminim2.flixcart.com/image/480/640/xif0q/jean/p/g/m/30-t-baggy-dark-blue-tidda-original-imah3ztw5ngr78hf.jpeg?q=90",
+          "qty": 1
+        },
+        {
+          "id": "20",
+          "name": "Black Denim Jeans",
+          "style": "Jeans",
+          "price": 2199,
+          "image": "https://5.imimg.com/data5/TW/SN/FQ/SELLER-78804906/black-skinny-jeans-500x500.jpg",
+          "qty": 1
+        },
+        {
+          "id": "3",
+          "name": "Blue Jeans",
+          "style": "Jeans",
+          "price": 1999,
+          "image": "https://peplosjeans.in/cdn/shop/products/13B_1.png?v=1709532475&width=1080",
+          "qty": 1
+        },
+        {
+          "id": "24",
+          "name": "Faded Jeans",
+          "style": "Jeans",
+          "price": 1999,
+          "image": "https://5.imimg.com/data5/JJ/NG/MY-38742579/light-blue-faded-jeans-500x500.jpg",
+          "qty": 1
+        },
+        {
+          "id": "8",
+          "name": "Casual Polo T-Shirt",
+          "style": "Casual",
+          "price": 1299,
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSy3tAAJ1iJX2-OUjsShzdU1UAJboVpBGZgfw&s",
+          "qty": 1
+        }
+      ],
+      "total": 11794,
+      "date": "12/28/2025, 3:49:35 PM"
+    },
+    {
+      "id": "order_1766920056890",
+      "userEmail": "gangularajashekarreddy@gmail.com",
+      "items": [
+        {
+          "id": 2,
+          "name": "Formal Suit",
+          "price": 4999,
+          "image": "https://images.jdmagicbox.com/quickquotes/images_main/men-s-velvet-embroidered-coat-pant-s-xxl-pqdt4j6g.jpg",
+          "qty": 1
+        },
+        {
+          "id": 3,
+          "name": "Blue Jeans",
+          "price": 1999,
+          "image": "https://peplosjeans.in/cdn/shop/products/13B_1.png",
+          "qty": 1
+        }
+      ],
+      "total": 6998,
+      "date": "12/28/2025, 4:37:36 PM"
+    },
+    {
+      "id": "order_1766920120351",
+      "userEmail": "gangularajashekarreddy@gmail.com",
+      "items": [
+        {
+          "id": "5",
+          "name": "Casual T-Shirt",
+          "style": "Casual",
+          "price": 1199,
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCioTE6vKxpX2v89wA8b_WXIyTRqv6pq0kWQ&s",
+          "qty": 1
+        }
+      ],
+      "total": 1199,
+      "date": "12/28/2025, 4:38:40 PM"
+    },
+    {
+      "id": "order_1766921023114",
+      "userEmail": "gangularajashekarreddy@gmail.com",
+      "items": [
+        {
+          "id": "1",
+          "name": "Casual Shirt",
+          "style": "Casual",
+          "price": 999,
+          "image": "https://campussutra.com/cdn/shop/files/CSMSSRT8012_1_284604c5-c1d2-48cd-83f1-d154c18d96c0.jpg?v=1736493570",
+          "qty": 2
+        }
+      ],
+      "total": 1998,
+      "date": "12/28/2025, 4:53:43 PM"
+    },
+    {
+      "id": "order_1766921318254",
+      "userEmail": "gangularajashekarreddy@gmail.com",
+      "items": [
+        {
+          "id": "1",
+          "name": "Casual Shirt",
+          "style": "Casual",
+          "price": 999,
+          "image": "https://campussutra.com/cdn/shop/files/CSMSSRT8012_1_284604c5-c1d2-48cd-83f1-d154c18d96c0.jpg?v=1736493570",
+          "qty": 1
+        },
+        {
+          "id": "4",
+          "name": "Casual Checked Shirt",
+          "style": "Casual",
+          "price": 1199,
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBHy7sH-DTABH3w8k46q78QKYKhAilRL6Cnw&s",
+          "qty": 1
+        },
+        {
+          "id": "5",
+          "name": "Casual T-Shirt",
+          "style": "Casual",
+          "price": 1199,
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCioTE6vKxpX2v89wA8b_WXIyTRqv6pq0kWQ&s",
+          "qty": 1
+        }
+      ],
+      "total": 3397,
+      "date": "12/28/2025, 4:58:38 PM"
+    },
+    {
+      "id": "da65",
+      "userEmail": "user@gmail.com",
+      "items": [
+        {
+          "id": "5",
+          "name": "Casual T-Shirt",
+          "style": "Casual",
+          "price": 1199,
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCioTE6vKxpX2v89wA8b_WXIyTRqv6pq0kWQ&s",
+          "qty": 1
+        }
+      ],
+      "total": 1199,
+      "date": "12/28/2025, 7:47:49 PM"
+    },
+    {
+      "id": "78fb",
+      "userEmail": "user@gmail.com",
+      "items": [
+        {
+          "id": "4",
+          "name": "Casual Checked Shirt",
+          "style": "Casual",
+          "price": 1199,
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBHy7sH-DTABH3w8k46q78QKYKhAilRL6Cnw&s",
+          "qty": 1
+        },
+        {
+          "id": "7",
+          "name": "Casual Denim Shirt",
+          "style": "Casual",
+          "price": 2199,
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQQM_xsetVPAZZxQQSYG3C6NdJbonWIqW11A&s",
+          "qty": 1
+        },
+        {
+          "id": "3",
+          "name": "Blue Jeans",
+          "style": "Jeans",
+          "price": 1999,
+          "image": "https://peplosjeans.in/cdn/shop/products/13B_1.png?v=1709532475&width=1080",
+          "qty": 1
+        },
+        {
+          "id": "20",
+          "name": "Black Denim Jeans",
+          "style": "Jeans",
+          "price": 2199,
+          "image": "https://5.imimg.com/data5/TW/SN/FQ/SELLER-78804906/black-skinny-jeans-500x500.jpg",
+          "qty": 1
+        },
+        {
+          "id": "19",
+          "name": "Regular Fit Jeans",
+          "style": "Jeans",
+          "price": 1199,
+          "image": "https://tigc.in/cdn/shop/files/compress_0124-367ltdnm-01-blue__1.jpg?v=1720784381&width=360",
+          "qty": 1
+        },
+        {
+          "id": "18",
+          "name": "Slim Fit Jeans",
+          "style": "Jeans",
+          "price": 999,
+          "image": "https://wrogn.com/cdn/shop/files/c50397cd-35ef-4309-ab2b-70882812160f1704784947881-WROGN-Men-Jeans-111704784947496-2.jpg?v=1719842098",
+          "qty": 1
+        },
+        {
+          "id": "14",
+          "name": "Formal Waistcoat",
+          "style": "Formal",
+          "price": 2099,
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4Qrm6f8IbMACkNZuNRommepiC19SEL00SyA&s",
+          "qty": 1
+        },
+        {
+          "id": "12",
+          "name": "Formal Blazer",
+          "style": "Formal",
+          "price": 2199,
+          "image": "https://assets.myntassets.com/w_360,q_50,,dpr_2,fl_progressive,f_webp/assets/images/12554498/2022/4/28/a3e42528-019c-4bf9-a5bc-30cb76c747211651116245680-MANQ-Men-Blue-Slim-Fit-Solid-Single-Breasted-Formal-Blazer-6-1.jpg",
+          "qty": 1
+        }
+      ],
+      "total": 14092,
+      "date": "12/28/2025, 7:59:45 PM"
+    },
+    {
+      "id": "058b",
+      "userEmail": "user@gmail.com",
+      "items": [
+        {
+          "id": "1",
+          "name": "Casual Shirt",
+          "style": "Casual",
+          "price": 999,
+          "image": "https://campussutra.com/cdn/shop/files/CSMSSRT8012_1_284604c5-c1d2-48cd-83f1-d154c18d96c0.jpg?v=1736493570",
+          "qty": 2
+        }
+      ],
+      "total": 1998,
+      "date": "12/29/2025, 2:11:03 PM"
+    },
+    {
+      "id": "23e5",
+      "userEmail": "user@gmail.com",
+      "items": [
+        {
+          "id": "1",
+          "name": "Casual Shirt",
+          "style": "Casual",
+          "price": 999,
+          "image": "https://campussutra.com/cdn/shop/files/CSMSSRT8012_1_284604c5-c1d2-48cd-83f1-d154c18d96c0.jpg?v=1736493570",
+          "qty": 1
+        }
+      ],
+      "total": 999,
+      "date": "12/29/2025, 2:13:30 PM"
+    },
+    {
+      "id": "a100",
+      "userEmail": "user@gmail.com",
+      "items": [
+        {
+          "id": "68bc",
+          "name": "casual shirt",
+          "price": 800,
+          "style": "Casual",
+          "image": "data:image/jpeg;base64,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",
+          "qty": 1
+        }
+      ],
+      "total": 800,
+      "date": "12/29/2025, 2:42:33 PM"
+    },
+    {
+      "id": "order_1766999789749",
+      "userEmail": "user@gmail.com",
+      "items": [
+        {
+          "id": "1",
+          "name": "Casual Shirt",
+          "style": "Casual",
+          "price": 999,
+          "image": "https://campussutra.com/cdn/shop/files/CSMSSRT8012_1_284604c5-c1d2-48cd-83f1-d154c18d96c0.jpg?v=1736493570",
+          "qty": 1
+        },
+        {
+          "id": "68bc",
+          "name": "casual shirt",
+          "price": 800,
+          "style": "Casual",
+          "image": "data:image/jpeg;base64,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",
+          "qty": 1
+        }
+      ],
+      "subtotal": 1799,
+      "gst": 90,
+      "total": 1889,
+      "date": "12/29/2025, 2:46:29 PM"
+    },
+    {
+      "id": "order_1767000588011",
+      "userEmail": "user@gmail.com",
+      "items": [
+        {
+          "id": "1",
+          "name": "Casual Shirt",
+          "style": "Casual",
+          "price": 999,
+          "image": "https://campussutra.com/cdn/shop/files/CSMSSRT8012_1_284604c5-c1d2-48cd-83f1-d154c18d96c0.jpg?v=1736493570",
+          "qty": 1
+        },
+        {
+          "id": "23",
+          "name": "Dark Blue Jeans",
+          "style": "Jeans",
+          "price": 2199,
+          "image": "https://rukminim2.flixcart.com/image/480/640/xif0q/jean/p/g/m/30-t-baggy-dark-blue-tidda-original-imah3ztw5ngr78hf.jpeg?q=90",
+          "qty": 1
+        },
+        {
+          "id": "22",
+          "name": "Stretchable Jeans",
+          "style": "Jeans",
+          "price": 2099,
+          "image": "https://pictures.kartmax.in/live/inside/800x800/sites/aPfvUDpPwMn1ZadNKhP7/product-images/8905745824299/660/HLJN003072_1.JPG",
+          "qty": 1
+        },
+        {
+          "id": "18",
+          "name": "Slim Fit Jeans",
+          "style": "Jeans",
+          "price": 999,
+          "image": "https://wrogn.com/cdn/shop/files/c50397cd-35ef-4309-ab2b-70882812160f1704784947881-WROGN-Men-Jeans-111704784947496-2.jpg?v=1719842098",
+          "qty": 1
+        }
+      ],
+      "subtotal": 6296,
+      "gst": 315,
+      "total": 6611,
+      "date": "12/29/2025, 2:59:48 PM"
+    },
+    {
+      "id": "order_1767078912795",
+      "userEmail": "user@gmail.com",
+      "items": [
+        {
+          "id": "1",
+          "name": "Casual Shirt",
+          "style": "Casual",
+          "price": 999,
+          "image": "https://campussutra.com/cdn/shop/files/CSMSSRT8012_1_284604c5-c1d2-48cd-83f1-d154c18d96c0.jpg?v=1736493570",
+          "qty": 1
+        },
+        {
+          "id": "7243",
+          "name": "casual class",
+          "price": 850,
+          "style": "Casual",
+          "image": "https://cdn.shopify.com/s/files/1/0625/4873/8266/files/Screenshot_2023-02-09_at_19.31.15_600x600.png?v=1675951326",
+          "qty": 1
+        }
+      ],
+      "subtotal": 1849,
+      "gst": 92,
+      "total": 1941,
+      "date": "12/30/2025, 12:45:12 PM"
+    },
+    {
+      "id": "order_1767079152240",
+      "userEmail": "user@gmail.com",
+      "items": [
+        {
+          "id": "68bc",
+          "name": "casual shirt",
+          "price": 800,
+          "style": "Casual",
+          "image": "data:image/jpeg;base64,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",
+          "qty": 1
+        }
+      ],
+      "total": 800,
+      "date": "12/30/2025, 12:49:12 PM"
+    },
+    {
+      "id": "order_1767079310192",
+      "userEmail": "likithsai@gmail.com",
+      "items": [
+        {
+          "id": "68bc",
+          "name": "casual shirt",
+          "price": 800,
+          "style": "Casual",
+          "image": "data:image/jpeg;base64,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",
+          "qty": 1
+        },
+        {
+          "id": "20",
+          "name": "Black Denim Jeans",
+          "style": "Jeans",
+          "price": 2199,
+          "image": "https://5.imimg.com/data5/TW/SN/FQ/SELLER-78804906/black-skinny-jeans-500x500.jpg",
+          "qty": 1
+        }
+      ],
+      "total": 2999,
+      "date": "12/30/2025, 12:51:50 PM"
+    },
+    {
+      "id": "order_1767080711360",
+      "userEmail": "likith@gmail.com",
+      "items": [
+        {
+          "id": "1",
+          "name": "Casual Shirt",
+          "style": "Casual",
+          "price": 999,
+          "image": "https://campussutra.com/cdn/shop/files/CSMSSRT8012_1_284604c5-c1d2-48cd-83f1-d154c18d96c0.jpg?v=1736493570",
+          "qty": 1
+        }
+      ],
+      "total": 999,
+      "date": "12/30/2025, 1:15:11 PM"
+    },
+    {
+      "id": "order_1767081316142",
+      "userEmail": "user@gmail.com",
+      "items": [
+        {
+          "id": "1",
+          "name": "Casual Shirt",
+          "style": "Casual",
+          "price": 999,
+          "image": "https://campussutra.com/cdn/shop/files/CSMSSRT8012_1_284604c5-c1d2-48cd-83f1-d154c18d96c0.jpg?v=1736493570",
+          "qty": 1
+        },
+        {
+          "id": "68bc",
+          "name": "casual shirt",
+          "price": 800,
+          "style": "Casual",
+          "image": "data:image/jpeg;base64,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",
+          "qty": 1
+        }
+      ],
+      "total": 1799,
+      "date": "12/30/2025, 1:25:16 PM"
+    },
+    {
+      "id": "order_1767429422669",
+      "userEmail": "user@gmail.com",
+      "items": [
+        {
+          "id": "20",
+          "name": "Black Denim Jeans",
+          "style": "Jeans",
+          "price": 2199,
+          "image": "https://5.imimg.com/data5/TW/SN/FQ/SELLER-78804906/black-skinny-jeans-500x500.jpg",
+          "qty": 1
+        },
+        {
+          "id": "11",
+          "name": "Formal Shirt",
+          "style": "Formal",
+          "price": 1599,
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWmee0q6rkOyH6xCNuUc6qxEVGuD-OQyZnLQ&s",
+          "qty": 1
+        }
+      ],
+      "total": 3798,
+      "date": "1/3/2026, 2:07:02 PM"
+    },
+    {
+      "id": "order_1767434947152",
+      "userEmail": "user@gmail.com",
+      "items": [
+        {
+          "id": "20",
+          "name": "Black Denim Jeans",
+          "style": "Jeans",
+          "price": 2199,
+          "image": "https://5.imimg.com/data5/TW/SN/FQ/SELLER-78804906/black-skinny-jeans-500x500.jpg",
+          "qty": 1
+        }
+      ],
+      "total": 2199,
+      "date": "1/3/2026, 3:39:07 PM"
+    },
+    {
+      "id": "order_1767689095586",
+      "userEmail": "user@gmail.com",
+      "items": [
+        {
+          "id": "20",
+          "name": "Black Denim Jeans",
+          "style": "Jeans",
+          "price": 2199,
+          "image": "https://5.imimg.com/data5/TW/SN/FQ/SELLER-78804906/black-skinny-jeans-500x500.jpg",
+          "qty": 3
+        }
+      ],
+      "total": 6597,
+      "date": "1/6/2026, 2:14:55 PM"
+    },
+    {
+      "id": "order_1768552173656",
+      "userEmail": "user@gmail.com",
+      "items": [
+        {
+          "id": "7",
+          "name": "Casual Denim Shirt",
+          "style": "Casual",
+          "price": 2199,
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQQM_xsetVPAZZxQQSYG3C6NdJbonWIqW11A&s",
+          "qty": 1
+        },
+        {
+          "id": "6",
+          "name": "Casual Hoodie",
+          "style": "Casual",
+          "price": 2099,
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2IYQaqf5BmzPiDc5t3f2i3CI-aKilvU2PnQ&s",
+          "qty": 1
+        }
+      ],
+      "total": 4298,
+      "date": "1/16/2026, 1:59:33 PM"
+    }
+  ]
+}

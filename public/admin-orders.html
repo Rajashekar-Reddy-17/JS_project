@@ -1,0 +1,47 @@
+<script>
+  if (localStorage.getItem("role") !== "admin") {
+    alert("Admin only");
+    location.href = "auth.html";
+  }
+</script>
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Orders</title>
+  <link rel="stylesheet" href="./Styles/style.css">
+</head>
+<body>
+
+<div class="products">
+  <h2 style="color:white">All Orders</h2>
+  <div id="orders"></div>
+</div>
+
+<script src="./Javascript/app.js"></script>
+<script>
+  loadAdminOrders();
+</script>
+
+<div id="orders"></div>
+<script>
+  loadAdminOrders();
+</script>
+
+<h2>Admin – Orders List</h2>
+
+<div id="ordersContainer"></div>
+
+<!-- IMPORTANT: JS MUST BE AT BOTTOM -->
+<script src="./Javascript/admin-orders.js"></script>
+
+
+<div class="top-bar">
+  <span class="logout-icon" onclick="logout()" title="Logout">
+    🔓
+  </span>
+</div>
+
+
+</body>
+</html>

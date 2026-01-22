@@ -1,0 +1,57 @@
+<script>
+  if (!localStorage.getItem("user")) {
+    location.href = "auth.html";
+  }
+</script>
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="./Styles/style.css">
+</head>
+<body>
+
+  
+
+<header>
+  <h2>Zen Fashion</h2>
+
+  <div class="cart-icon">
+    <a href="cart.html">
+      🛒 <span id="cartCount">0</span>
+    </a>
+  </div>
+</header>
+
+<!-- products section -->
+<div id="products"></div>
+
+<script src="./Javascript/app.js"></script>
+
+
+<!-- TOP BAR -->
+<div class="cart-icon">
+  <a href="cart.html">
+    🛒 <span id="cartCount">0</span>
+  </a>
+</div>
+
+<div class="top-bar">
+  <span class="logout-icon" onclick="logout()" title="Logout">
+    🔓
+  </span>
+</div>
+
+<h2 style="color:white; text-align:center">
+  Recommended Outfits
+</h2>
+
+<!-- ✅ SINGLE PRODUCTS CONTAINER -->
+<div id="products" class="products-grid"></div>
+
+<!-- ✅ LOAD JS ONCE -->
+<script src="./Javascript/app.js" defer></script>
+
+</body>
+</html>

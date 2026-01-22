@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Style Questionnaire</title>
+  <link rel="stylesheet" href="./Styles/style.css">
+</head>
+<body>
+
+<script>
+  if (!localStorage.getItem("user")) {
+    alert("Please login first");
+    window.location.href = "auth.html";
+  }
+</script>
+
+<div class="container">
+  <h2>Your Style Preferences</h2>
+
+  <label>Preferred Style</label>
+  <select id="styleSelect">
+    <option value="Casual">Casual</option>
+    <option value="Formal">Formal</option>
+    <option value="Jeans">Jeans</option>
+  </select>
+
+  <label>Budget</label>
+  <select id="budgetSelect">
+    <option value="Low">Low</option>
+    <option value="Medium">Medium</option>
+    <option value="High">High</option>
+  </select>
+
+  <button onclick="savePreferences()">Continue</button>
+</div>
+
+<script src="./Javascript/app.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Admin Panel</title>
+  <link rel="stylesheet" href="./Styles/style.css">
+</head>
+
+<body>
+
+<script>
+  if (localStorage.getItem("role") !== "admin") {
+    alert("Admin access only");
+    window.location.href = "auth.html";
+  }
+</script>
+
+<div class="top-bar">
+  <button onclick="logout()">Logout</button>
+</div>
+
+<div class="products">
+
+  <h2 style="color:white">Admin Panel</h2>
+
+  <!-- Add Product -->
+  <div class="container">
+    <h3>Add Product</h3>
+
+    <input id="pname" placeholder="Product Name">
+    <input id="pprice" type="number" placeholder="Price">
+
+    <select id="pstyle">
+      <option value="Casual">Casual</option>
+      <option value="Formal">Formal</option>
+      <option value="Jeans">Jeans</option>
+    </select>
+
+    <input id="pimage" placeholder="Image path">
+
+    <button onclick="addProduct()">Add Product</button>
+  </div>
+
+  <br>
+
+  <button onclick="location.href='admin-orders.html'">
+    View Orders
+  </button>
+
+  <div id="adminProducts"></div>
+
+</div>
+
+<script src="./Javascript/app.js"></script>
+</body>
+</html>

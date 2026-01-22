@@ -1,0 +1,43 @@
+<script>
+  if (!localStorage.getItem("user")) {
+    window.location.href = "auth.html";
+  }
+</script>
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Checkout</title>
+  <link rel="stylesheet" href="./Styles/style.css">
+</head>
+<body>
+
+  <h2>Order Summary</h2>
+
+<div id="summaryBox">
+  <p>Subtotal: ₹<span id="subtotal">0</span></p>
+  <p>GST (5%): ₹<span id="gst">0</span></p>
+  <hr>
+  <h3>Total: ₹<span id="total">0</span></h3>
+</div>
+
+<div id="thankYouBox" style="display:none;">
+  <h2>🎉 Thanks for Shopping!</h2>
+  <p>Your order has been placed successfully.</p>
+  <p>We hope to see you again 😊</p>
+</div>
+
+
+<script src="./Javascript/checkout.js"></script>
+
+
+<div class="container">
+  <h2>Checkout</h2>
+  <p id="orderSummary"></p>
+
+  <button onclick="placeOrder()">Place Order</button>
+</div>
+
+<script src="./Javascript/app.js" defer></script>
+</body>
+</html>
