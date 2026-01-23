@@ -8,13 +8,14 @@
 
 <script>
   if (localStorage.getItem("role") !== "admin") {
-    alert("Admin only");
+   // alert("Admin only");
     location.href = "auth.html";
   }
 </script>
 
 <div class="top-bar">
   <span class="logout-icon" onclick="logout()" title="Logout">🔓</span>
+  <button onclick="logout()">Logout</button>
 </div>
 
 <div class="products">

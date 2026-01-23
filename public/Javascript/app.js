@@ -281,7 +281,7 @@ function placeOrder() {
 /* ================= LOGOUT ================= */
 function logout() {
   localStorage.clear();
-  location.href = "auth.html";
+  location.href = "index.html";
 }
 
 /* ================= INIT ================= */
