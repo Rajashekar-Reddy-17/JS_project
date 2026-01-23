@@ -1,13 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Welcome</title>
-  
+  <title>Login / Register</title>
+  <link rel="stylesheet" href="./Styles/style.css">
 </head>
 <body>
-  <h2>Welcome to Zen Fashion</h2>
+<h2>Welcome to Zen Fashion</h2>
   <p>Life is a fashion show,the world is your runway.</p>
-  <a href="auth.html">Login</a><br><br>
-   <a href="auth.html">Register</a>
+  
+<div class="container">
+  <h2>Login</h2>
+
+  <!-- LOGIN INPUTS (FIXED) -->
+  <input id="loginEmail" type="email" placeholder="Email">
+  <input id="loginPassword" type="password" placeholder="Password">
+
+  <button onclick="login()">Login</button>
+
+  <hr style="margin:15px 0">
+
+  <h2>Register</h2>
+
+  <!-- REGISTER INPUTS -->
+  <input id="regEmail" type="email" placeholder="Email">
+  <input id="regPassword" type="password" placeholder="Password">
+
+  <button onclick="register()">Register</button>
+</div>
+
+<script src="./Javascript/app.js" defer></script>
 </body>
 </html>
